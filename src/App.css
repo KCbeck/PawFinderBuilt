@@ -9,8 +9,8 @@
   margin-top: 45px;
   margin-left: 0px;
 }
-.container-fluid{
-  display: inline-flex;
+.Navlink{
+  font-size: 3%;
 }
 #AppHeader {
   background-color: green;
@@ -21,7 +21,7 @@
   padding-bottom: 80px;
 }
 #navbarsection{
-  display: none;
+  display: flex;
 }
 #appdescription{
   padding-top: 20px;
@@ -36,9 +36,25 @@
   margin-top: -158px;
   Font-size: 170px;
 }
+.container-fluid{
+  width: 2%;
+  height: 20%;
+  margin-left: .25%;
+  color: black;
+}
+.navbar {
+  width: 10%;
+  height: 20%;
+  margin-left: 3%;
 
+  
+}
 #contentDiv{
-  align-content: center
+  align-content: left;
+}
+.petroolettetext {
+  Text-align: left;
+  color: black;
 }
 
 /* #footer{

@@ -63,7 +63,7 @@ class App extends Component {
         <Navbar className="navbarSection" fluid collapseOnSelect>
           <Navbar.Header>
            <Navbar.Brand>
-              <Link to="/">PetRoolette</Link>
+              <Link to="/"><h2 id="petroolettetext">PetRoolette</h2></Link>
             </Navbar.Brand>
             <Navbar.Toggle />
           </Navbar.Header>
