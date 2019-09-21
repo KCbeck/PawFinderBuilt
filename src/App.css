@@ -1,22 +1,53 @@
-.App {
-  text-align: center;
+#App {
+  text-align: left;
 }
 
-.App-logo {
-  height: 40vmin;
+#AppLogo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+  position:absolute;
+  margin-top: 45px;
+  margin-left: 0px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.container-fluid{
+  display: inline-flex;
+}
+#AppHeader {
+  background-color: green;
+  height: 200px;
+  padding: 20px;
   color: white;
+  margin-top: -18px;
+  padding-bottom: 80px;
+}
+#navbarsection{
+  display: none;
+}
+#appdescription{
+  padding-top: 20px;
+}
+#roolettBackground {
+  margin-top: 0px;
+  margin-left: -20px;
+  height: 180px;
+}
+#PRheader{
+  margin-left: 400px;
+  margin-top: -158px;
+  Font-size: 170px;
 }
 
-.App-link {
-  color: #09d3ac;
+#contentDiv{
+  align-content: center
+}
+
+/* #footer{
+  
+} */
+
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
 }
